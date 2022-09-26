@@ -41,6 +41,7 @@ a:hover {
     height: 370px;
   }
 
+
 .skills {
   background: black;
   color: white;
@@ -76,13 +77,34 @@ a:hover {
         background-image: url(./images/react-120h.png)
       }
 
+.career-highlights {
+
+}
+  .career-highlights__list {
+    list-style: none;
+  }
+    .career-highlight {
+      margin: 100px auto;
+    }
+      .career-highlight__logo {
+        width: 140px;
+      }
+      .career-highlight__text {
+        margin-top:8px;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+      }
+
+
 .projects {
   color: white;
 }
-  .projects h2 {
+  .projects h2,
+  .jobs h2 {
     margin: 0;
     padding: 70px 10px;
-    background-color: #333;
+    background-color: black;
     color: white;
     font-size: 50px;
     font-weight: 700;
@@ -131,3 +153,27 @@ a:hover {
           margin: 14px 10px 12px;
           box-shadow: 6px 4px 10px #333;
         }
+
+
+.jobs {
+  height: 1000px;
+  background-color: #eee;
+}
+  .jobs h2 {
+    background-color: #000;
+  }
+    .icon-cv {
+      margin-top: 60px;
+      height:100px;
+    }
+    .cv-link {
+      margin: 10px auto 30px;
+    }
+      .cv-text {
+        font-size:28px;
+        font-weight:700;
+        color:black;
+      }
+    .cv-summary ul {
+      list-style: none;
+    }

@@ -21,8 +21,29 @@ export default function App() {
           </ul>
         </section>
 
+        <section className="career-highlights">
+          <ul className="career-highlights__list">
+            <li className="career-highlight">
+              <img className="career-highlight__logo" src={require('./images/logo-cardiff-university.png')} alt="cardiff university logo" />
+              <div className="career-highlight__text">Masters Degree</div>
+            </li>
+            <li className="career-highlight">
+              <img className="career-highlight__logo" src={require('./images/logo-netscape.png')} alt="netscape logo" />
+              <div className="career-highlight__text">22 years Vanilla JS</div>
+            </li>
+            <li className="career-highlight">
+              <img className="career-highlight__logo" src={require('./images/logo-aviva.png')} alt="aviva logo" />
+              <div className="career-highlight__text">8 years</div>
+            </li>
+            <li className="career-highlight">
+              <img className="career-highlight__logo" src={require('./images/logo-admiral.png')} alt="admiral logo" />
+              <div className="career-highlight__text">6 years</div>
+            </li>
+          </ul>
+        </section>
+
         <section className="projects">
-          <h2>Example Projects</h2>
+          <h2>Recent skills-updating projects</h2>
           <ul className="projects-list">
             <li className="projects-list__chat">
               <div className="projects-list-item-container">
@@ -62,6 +83,7 @@ export default function App() {
                 <div className="project__skills-icons">
                   <img className="project__skills-icon" alt="javascript" src={require('./images/js-square-120h.png')} /> 
                   <img className="project__skills-icon" alt="typescript" src={require('./images/ts-square-120h.png')} /> 
+                  <img className="project__skills-icon" alt="node" src={require('./images/node-120h.png')} /> 
                 </div>
                 <a className="project__website" target="_blank" href="https://translated-chat.herokuapp.com">translated-chat.herokuapp.com</a>
                 <a className="project__github" target="_blank" href="https://github.com/creatively/translated-chat">github.com/creatively/translated-chat</a>
@@ -70,6 +92,26 @@ export default function App() {
           </ul>
         </section>
 
+        <section className="jobs">
+          <h2>Education & Employment</h2>
+
+          <div className="cv">
+            <img className="icon-cv" alt="icon cv" src={require('./images/cv.png')} />
+            <a className="cv-link" title="cv" href="chris-charles-cv-oct-2022.pdf">
+              <div className="cv-text">View CV</div>
+            </a>
+          </div>
+
+          <div className="cv-summary">
+            <ul>
+              <li>Educated to Masters Degree level</li>
+              <li>22 years vanilla javascript experience</li>
+              <li>8 years Aviva</li>
+              <li>6 years Admiral</li>
+            </ul>
+          </div>
+
+        </section>
       </main>
     </div>
   )
