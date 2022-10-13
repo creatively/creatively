@@ -23,19 +23,19 @@ export default function App() {
 
         <section className="career-highlights">
           <ul className="career-highlights__list">
-            <li className="career-highlight">
+            <li className="career-highlight cardiff-university">
               <img className="career-highlight__logo" src={require('./images/logo-cardiff-university.png')} alt="cardiff university logo" />
               <div className="career-highlight__text">Masters Degree</div>
             </li>
-            <li className="career-highlight">
+            <li className="career-highlight vanilla-js">
               <img className="career-highlight__logo" src={require('./images/logo-netscape.png')} alt="netscape logo" />
               <div className="career-highlight__text">22 years Vanilla JS</div>
             </li>
-            <li className="career-highlight">
+            <li className="career-highlight aviva">
               <img className="career-highlight__logo" src={require('./images/logo-aviva.png')} alt="aviva logo" />
               <div className="career-highlight__text">8 years</div>
             </li>
-            <li className="career-highlight">
+            <li className="career-highlight admiral">
               <img className="career-highlight__logo" src={require('./images/logo-admiral.png')} alt="admiral logo" />
               <div className="career-highlight__text">6 years</div>
             </li>

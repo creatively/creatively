@@ -19,11 +19,11 @@ a:hover {
   text-decoration-color: #c1c1c1;
 }
 
-  h1 {
-    font: 100px 'Roboto', sans-serif;
-    font-weight:700;
-    margin-bottom:0;
-  }
+h1 {
+  font: 100px 'Roboto', sans-serif;
+  font-weight:700;
+  margin-bottom:0;
+}
   .header__sub-heading {
     margin:0;
     font-size:70px;
@@ -41,6 +41,14 @@ a:hover {
     height: 370px;
   }
 
+h2 {
+  margin: 0;
+  padding: 260px 10px 70px;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
 
 .skills {
   background: black;
@@ -82,9 +90,12 @@ a:hover {
 }
   .career-highlights__list {
     list-style: none;
+    margin:0;
+    border:0;
+    padding:0;
   }
     .career-highlight {
-      margin: 100px auto;
+      padding: 80px;
     }
       .career-highlight__logo {
         width: 140px;
@@ -96,19 +107,23 @@ a:hover {
         font-weight: 700;
       }
 
+      .cardiff-university {
+        background-color: darkred;
+        color: white;
+      }
+      .vanilla-js {
+        background-color: white;
+      }
+      .aviva {
+        background-color: gold;
+      }
+      .admiral {
+        background-color:#f3f3f3;
+      }
 
 .projects {
   color: white;
 }
-  .projects h2,
-  .jobs h2 {
-    margin: 0;
-    padding: 70px 10px;
-    background-color: black;
-    color: white;
-    font-size: 50px;
-    font-weight: 700;
-  }
   .projects-list {
     list-style-type: none;
     color: black;
