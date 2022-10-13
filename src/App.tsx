@@ -56,21 +56,21 @@ export default function App() {
                   <img className="project__skills-icon" alt="react" src={require('./images/react-120h.png')} /> 
                   <img className="project__skills-icon" alt="node" src={require('./images/node-120h.png')} /> 
                 </div>
-                <a className="project__website" target="_blank" href="https://translated-chat.herokuapp.com">climate.herokuapp.com</a>
-                <a className="project__github" target="_blank" href="https://github.com/creatively/climate">github.com/creatively/climate</a>
+                <a className="project__website" target="_blank" href="http://climate-10.com">climate-10.com</a>
+                <a className="project__github" target="_blank" href="https://github.com/creatively/climate-10">github.com/creatively/climate-10</a>
               </div>
             </li>
 
             <li className="projects-list__chat">
               <div className="projects-list-item-container">
                 <h3>Translating Chat Tool</h3>
-                <img className="project__screenshot" alt="climate project screenshot" src={require("./images/screenshot-chat.png")} />
+                <img className="project__screenshot" alt="translating chat tool screenshot" src={require("./images/screenshot-chat.png")} />
                 <div className="project__description">Single-page chat application that uses the Google Translate API, enabling real-time chat for multiple people across multiple languages. Use of websockets on client & server</div>
                 <div className="project__skills-icons">
                   <img className="project__skills-icon" alt="javascript" src={require('./images/js-square-120h.png')} /> 
                   <img className="project__skills-icon" alt="node" src={require('./images/node-120h.png')} /> 
                 </div>
-                <a className="project__website" target="_blank" href="https://translated-chat.herokuapp.com">translated-chat.herokuapp.com</a>
+                <a className="project__website" target="_blank" href="http://translatingchat.com">translatingchat.com</a>
                 <a className="project__github" target="_blank" href="https://github.com/creatively/translated-chat">github.com/creatively/translated-chat</a>
               </div>
             </li>
@@ -85,8 +85,8 @@ export default function App() {
                   <img className="project__skills-icon" alt="typescript" src={require('./images/ts-square-120h.png')} /> 
                   <img className="project__skills-icon" alt="node" src={require('./images/node-120h.png')} /> 
                 </div>
-                <a className="project__website" target="_blank" href="https://translated-chat.herokuapp.com">translated-chat.herokuapp.com</a>
-                <a className="project__github" target="_blank" href="https://github.com/creatively/translated-chat">github.com/creatively/translated-chat</a>
+                <a className="project__website" target="_blank" href="http://wordsfeel.com">wordsfeel.com</a>
+                <a className="project__github" target="_blank" href="https://github.com/creatively/wordsfeel">github.com/creatively/wordsfeel</a>
               </div>
             </li>
           </ul>
@@ -97,7 +97,7 @@ export default function App() {
 
           <div className="cv">
             <img className="icon-cv" alt="icon cv" src={require('./images/cv.png')} />
-            <a className="cv-link" title="cv" href="chris-charles-cv-oct-2022.pdf">
+            <a className="cv-link" title="cv link" href="./files/chris-charles-cv-oct-2022.pdf">
               <div className="cv-text">View CV</div>
             </a>
           </div>
