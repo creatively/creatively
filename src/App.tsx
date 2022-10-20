@@ -44,7 +44,7 @@ export default function App() {
         </section>
 
         <section className="projects">
-          <h2>Recent 2022 learning projects for updating<br/>JS skills into Node, React & TS ...</h2>
+          <h2>Recent 2022 skills-development projects</h2>
           <ul className="projects-list">
 
             <li className="projects-list__chat">
