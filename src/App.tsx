@@ -1,5 +1,6 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+
 
 export default function App() {
   return (
@@ -99,7 +100,11 @@ export default function App() {
 
           <div className="cv">
             <img className="icon-cv" alt="icon cv" src={require('./images/cv.png')} />
-            <a className="cv-link" title="cv link" href="./files/chris-charles-cv-oct-2022.pdf">
+            <a className="cv-link" 
+              title="cv link" 
+              href={require('./files/chris-charles-cv-nov-2022.pdf')} 
+              target="blank"
+            >
               <div className="cv-text">View CV</div>
             </a>
           </div>
