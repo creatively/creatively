@@ -43,8 +43,24 @@ export default function App() {
         </section>
 
         <section className="projects">
-          <h2>Recent 2022 skills-updating projects</h2>
+          <h2>Recent 2022 learning projects for updating<br/>JS skills into Node, React & TS ...</h2>
           <ul className="projects-list">
+
+            <li className="projects-list__chat">
+              <div className="projects-list-item-container">
+                <h3>Visual Content Analysis Tool</h3>
+                <img className="project__screenshot" alt="analysis project screenshot" src={require("./images/screenshot-analysis.png")} />
+                <div className="project__description">Transforms a text transcript into a visual representation of the emotional landscape of the text. Very abstracted file structure, with much React and Typescript useage. Uses 'Zustand' for global state management, along with 'Immer'</div>
+                <div className="project__skills-icons">
+                  <img className="project__skills-icon" alt="javascript" src={require('./images/js-square-120h.png')} /> 
+                  <img className="project__skills-icon" alt="typescript" src={require('./images/ts-square-120h.png')} /> 
+                  <img className="project__skills-icon" alt="react" src={require('./images/react-120h.png')} /> 
+                </div>
+                <a className="project__website" target="_blank" href="http://wordsfeel.com">wordsfeel.com</a>
+                <a className="project__github" target="_blank" href="https://github.com/creatively/wordsfeel">github.com/creatively/wordsfeel</a>
+              </div>
+            </li>
+
             <li className="projects-list__chat">
               <div className="projects-list-item-container">
                 <h3>Location Climate Change Calculator</h3>
@@ -75,20 +91,6 @@ export default function App() {
               </div>
             </li>
 
-            <li className="projects-list__chat">
-              <div className="projects-list-item-container">
-                <h3>Visual Content Analysis Tool</h3>
-                <img className="project__screenshot" alt="analysis project screenshot" src={require("./images/screenshot-analysis.png")} />
-                <div className="project__description">Transforms a text transcript into a visual representation of the emotional landscape of the text. Very abstracted file structure, with much React and Typescript useage. Uses 'Zustand' for global state management, along with 'Immer'</div>
-                <div className="project__skills-icons">
-                  <img className="project__skills-icon" alt="javascript" src={require('./images/js-square-120h.png')} /> 
-                  <img className="project__skills-icon" alt="typescript" src={require('./images/ts-square-120h.png')} /> 
-                  <img className="project__skills-icon" alt="node" src={require('./images/node-120h.png')} /> 
-                </div>
-                <a className="project__website" target="_blank" href="http://wordsfeel.com">wordsfeel.com</a>
-                <a className="project__github" target="_blank" href="https://github.com/creatively/wordsfeel">github.com/creatively/wordsfeel</a>
-              </div>
-            </li>
           </ul>
         </section>
 
