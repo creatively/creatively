@@ -99,14 +99,7 @@ export default function App() {
           <h2>Education & Employment</h2>
 
           <div className="cv">
-            <img className="icon-cv" alt="icon cv" src={require('./images/cv.png')} />
-            <a className="cv-link" 
-              title="cv link" 
-              href={require('./files/chris-charles-cv-nov-2022.pdf')} 
-              target="blank"
-            >
-              <div className="cv-text">View CV</div>
-            </a>
+
           </div>
 
           <div className="cv-summary">
