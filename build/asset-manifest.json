@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.95c8bd06.css",
-    "main.js": "/static/js/main.b63c8e23.js",
+    "main.js": "/static/js/main.85a37897.js",
     "static/media/logo-netscape.png": "/static/media/logo-netscape.a33596243cc00dd07f68.png",
     "static/media/logo-cardiff-university.png": "/static/media/logo-cardiff-university.b3c087ce440bec5f8901.png",
     "static/media/chris-bw-370h.png": "/static/media/chris-bw-370h.991d9460258e0b0ee3b0.png",
+    "static/media/chris-charles-cv-nov-2022.pdf": "/static/media/chris-charles-cv-nov-2022.0f94b83f8cc9d7c23def.pdf",
     "static/media/screenshot-analysis.png": "/static/media/screenshot-analysis.8d5f10d483e79f380c1c.png",
     "static/media/screenshot-chat.png": "/static/media/screenshot-chat.917cab2554a562687bfd.png",
     "static/media/logo-aviva.png": "/static/media/logo-aviva.aa44cea88cec0d9b529c.png",
     "static/media/logo-admiral.png": "/static/media/logo-admiral.b226bce5fd1a314abb28.png",
     "static/media/white-wave-1.png": "/static/media/white-wave-1.f7bb460c3d1f1c3fcfd5.png",
     "static/media/screenshot-climate.png": "/static/media/screenshot-climate.f17884124ec15d9a4354.png",
+    "static/media/cv.png": "/static/media/cv.41c445739ba40bfbc21d.png",
     "static/media/react-120h.png": "/static/media/react-120h.e6958e4cdcdec394af3c.png",
     "index.html": "/index.html",
     "main.95c8bd06.css.map": "/static/css/main.95c8bd06.css.map",
-    "main.b63c8e23.js.map": "/static/js/main.b63c8e23.js.map"
+    "main.85a37897.js.map": "/static/js/main.85a37897.js.map"
   },
   "entrypoints": [
     "static/css/main.95c8bd06.css",
-    "static/js/main.b63c8e23.js"
+    "static/js/main.85a37897.js"
   ]
 }
